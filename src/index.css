@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 500px;
+  min-height: 300px;
+  border: 1.2px solid rgb(193, 195, 196);
+  border-bottom-color: rgb(13, 173, 194);
+  border-left-color: rgb(13, 173, 194);
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #050357;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.btn1 {
+  display: inline-block;
+  padding: 7px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 4px;
+  font-size: 0.8rem;
+}
+.btn1:focus {
+  outline: none;
+}
+.task {
+  background-color: rgb(236, 236, 236);
+  padding: 4px 20px;
+  margin-top: 6px;
+  border-radius: 4px;
+}
+.task h6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+.task h6 .faTimes {
+  color: red;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.task p {
+  font-size: 0.7rem;
+}
+.task.reminder {
+  border-left: 5px solid green;
+}
+.add-form {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+.add-form .submit {
+  background-color: #050357;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: none;
+}
+.forms {
+  padding: 5px 10px;
+}
+.forms label {
+  margin-right: 20px;
+  font-size: 0.9rem;
+  color: #00004d;
+  font-weight: 600;
+}
+.forms input {
+  padding: 6px 15px;
+  border-radius: 5px;
+  width: 180px;
+  outline: none;
+  border: 1px solid #00004d;
+  font-size: 0.8rem;
+  color: #050357;
+  font-weight: 600;
+}
+.forms-reminder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forms-reminder label {
+  margin-right: -70px;
+}
